@@ -8,7 +8,7 @@ existingSecret: ""   # name of pre-created Secret; skips chart-managed Secret cr
 
 backend:
   image:
-    repository: ghcr.io/your-org/activemq-dashboard-backend
+    repository: ghcr.io/lucabartmann/activemq-dashboard-backend
     tag: latest
     pullPolicy: IfNotPresent
   replicaCount: 1
@@ -39,7 +39,7 @@ backend:
 
 frontend:
   image:
-    repository: ghcr.io/qrowned/modern-activemq-dashboard-frontend
+    repository: ghcr.io/lucabartmann/modern-activemq-dashboard-frontend
     tag: latest
     pullPolicy: IfNotPresent
   replicaCount: 1

@@ -6,9 +6,9 @@ resources:
   - ingress.yaml
 
 images:
-  - name: ghcr.io/qrowned/modern-activemq-dashboard-backend
+  - name: ghcr.io/lucabartmann/modern-activemq-dashboard-backend
     newTag: "1.0.0"   # pin to a specific release tag
-  - name: ghcr.io/qrowned/modern-activemq-dashboard-frontend
+  - name: ghcr.io/lucabartmann/modern-activemq-dashboard-frontend
     newTag: "1.0.0"
 
 patches:

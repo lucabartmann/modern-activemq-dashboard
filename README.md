@@ -74,7 +74,7 @@ The fastest way to get started — includes a bundled ActiveMQ broker.
 **Prerequisite:** [Docker](https://docs.docker.com/get-docker/) and Docker Compose
 
 ```bash
-git clone https://github.com/qrowned/modern-activemq-dashboard.git
+git clone https://github.com/lucabartmann/modern-activemq-dashboard.git
 cd modern-activemq-dashboard
 docker compose up -d
 ```
@@ -119,7 +119,7 @@ docker compose up -d backend frontend
 **Prerequisites:** kubectl, Helm 3.10+, an existing ActiveMQ broker reachable from the cluster.
 
 ```bash
-helm repo add activemq-dashboard https://qrowned.github.io/modern-activemq-dashboard
+helm repo add activemq-dashboard https://lucabartmann.github.io/modern-activemq-dashboard
 helm repo update
 
 helm install my-amq activemq-dashboard/activemq-dashboard \
