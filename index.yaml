@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  activemq-dashboard:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-03-14T17:34:36.79478204Z"
+    description: A modern management UI for Apache ActiveMQ Classic
+    digest: 0bb5992a117fa5fa9756079d01f13c78bdd5a1883702ce6d96de682ea30f3d03
+    name: activemq-dashboard
+    type: application
+    urls:
+    - https://github.com/qrowned/modern-activemq-dashboard/releases/download/activemq-dashboard-0.1.1/activemq-dashboard-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-03-14T17:34:36.794788572Z"
